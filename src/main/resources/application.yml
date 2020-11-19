@@ -3,7 +3,7 @@ spring:
     # 如果测试的时候会报一大段警告信息，在下面url后面加上&useSSL=false！！！！
      url: jdbc:mysql://localhost:3306/Hotel?serverTimezone=CTT&characterEncoding=UTF-8&useSSL=false
      username: root      # 每个人不同 要记得改
-     password: my-secret-pw
+     password: root
      driver-class-name: com.mysql.cj.jdbc.Driver
      max-active: 200
      max-idle: 20
